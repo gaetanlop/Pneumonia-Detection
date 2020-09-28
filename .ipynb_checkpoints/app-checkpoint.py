@@ -24,8 +24,7 @@ def model_predict(img_path):
     """
        model_predict will return the preprocessed image
     """
-    img = open_image(img_path)
-    pred_class,pred_idx,outputs = learn.predict(img)
+    pred_class,pred_idx,outputs = learn.predict(img_path)
     return pred_class
     
 @app.route('/', methods=['GET'])
@@ -54,4 +53,4 @@ def upload():
 
 if __name__ == '__main__':
     
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
