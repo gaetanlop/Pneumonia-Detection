@@ -6,3 +6,6 @@ fastbook==0.0.11
 pillow<7
 packaging
 ipywidgets==7.5.1
+werkzeug
+glob
+flask
