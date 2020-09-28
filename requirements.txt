@@ -7,7 +7,6 @@ numpy
 sklearn
 pandas
 requests
-torch
 jupyter
 nbdev
 graphviz
@@ -16,4 +15,4 @@ azure-cognitiveservices-vision-customvision
 azure-cognitiveservices-vision-computervision
 azure-cognitiveservices-search-websearch
 azure-cognitiveservices-search-imagesearch
-fastai2
+
