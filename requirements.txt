@@ -11,8 +11,4 @@ jupyter
 nbdev
 graphviz
 azure
-azure-cognitiveservices-vision-customvision
-azure-cognitiveservices-vision-computervision
-azure-cognitiveservices-search-websearch
-azure-cognitiveservices-search-imagesearch
 
