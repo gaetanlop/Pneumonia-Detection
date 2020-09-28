@@ -27,7 +27,7 @@ def model_predict(img_path):
     pred_class,pred_idx,outputs = learn.predict(img_path)
     return pred_class
     
-@app.route('/', methods=['GET'])
+@app.route('/')
 def index():
     # Main page
     return render_template('index.html')
