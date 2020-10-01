@@ -55,6 +55,7 @@ https://www.researchgate.net/figure/An-example-of-CNN-architecture_fig1_32074840
 As we are using transfer learning, I trained the randomly added layers for 6 epochs, with all other layers frozen and then I unfreezed all of the layers, and trains them all for 4 epochs.
 
 ![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/results%20pneu.PNG)
+![alt_text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/results%20unfreeze%20pneu.PNG)
 ![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/conf%20matrix%20pneu.PNG)
 
 ## Productionization and Deployment
