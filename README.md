@@ -20,6 +20,10 @@ I created a tool that classify images of clothes into their corresponding catego
 ## About the Data
 Link of the dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
+**What is Pneumonia:** It is an infection in the lungs tissues caused by microbes. The result is an inflammation which brings water into the lung tissue which can result in breathing problems. "The WHO reports that nearly all cases (95%) of new-onset childhood clinical pneumonia occur in developing countries, particularly in Southeast Asia and Africa. Bacterial and viral pathogens are the two leading causes of pneumonia (Mcluckie, 2009) but require very different forms of management. Bacterial pneumonia requires urgent referral for immediate antibiotic treatment, while viral pneumonia is treated with supportive care. Therefore, accurate and timely diagnosis is imperative." (Quoted from an interesting paper: https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
+**Medical treatment:** "One key element of diagnosis is radiographic data, since chest X-rays are routinely obtained as standard of care and can help differentiate between different types of pneumonia. However, rapid radiologic interpretation of images is not always available, particularly in the low-resource settings where childhood pneumonia has the highest incidence and highest rates of mortality."(https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5)
+**About the Dataset:** The dataset contains 5,863 chest X-Ray images divided into two categories: Pneumonia and Normal.
+
 ## Code and Resources Used
 
 **Python Version:** 3.7
