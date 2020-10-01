@@ -60,7 +60,7 @@ https://www.researchgate.net/figure/An-example-of-CNN-architecture_fig1_32074840
 
 ![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/results%20pneu.PNG)
 
-Then I unfreezed (requries_grad=True) all the layers of the CNN, and trains them all for 4 epochs.
+* Then I unfreezed (requries_grad=True) all the layers of the CNN, and trains them all for 4 epochs.
 
 ![alt_text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/results%20unfreeze%20pneu.PNG)
 ![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/conf%20matrix%20pneu.PNG)
