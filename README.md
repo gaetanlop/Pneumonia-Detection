@@ -33,15 +33,13 @@ Link of the dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumon
 **Fastai Course:** https://github.com/fastai/fastbook
 
 
-## Data Cleaning
-As I scraped images from Google Image, there was some images that does not correspond to what I wanted my model to train on or images that were mislabeled. Therefore, I trained a neural net for only two epochs then plot the images with the highest losses. Thus, I could have a look at what images the model had difficulties to train on or to predict.
-To display the images whith the highest loss, I used a python GUI called the ImageClassifierCleaner.
+## Chest X-Ray Images Examples
 
 ![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/pneumonia%20data.PNG)
 
 
 ## Data Augmentation Strategy
-I simply Resized all the images to 224 by 224 pixels using Cropping. Then add aug_transforms: a fastai method to transforms images using the following trnasformations: mult=1.0, do_flip=True, flip_vert=False, max_rotate=10.0, min_zoom=1.0, max_zoom=1.1, max_lighting=0.2, max_warp=0.2, p_affine=0.75, p_lighting=0.75, xtra_tfms=None, size=None, mode='bilinear', pad_mode='reflection', align_corners=True, batch=False, min_scale=1.0.
+
 
 ![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/data%20aug%20pneumonia.PNG)
 
