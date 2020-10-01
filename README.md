@@ -2,16 +2,14 @@
 
 **Final Product Hosted On Heroku:** https://pneumonia-detection-appli.herokuapp.com/
 
-I created a tool that classify images of clothes into their corresponding categories (t-shirts,shirts,jeans...). Such a tool can be used by e-commerce websites to automatically create the different keywords for each of their articles. For example, for each new items it will tell directly in which category the new item belongs. 
+I created a tool that classifies pediatric chest X-rays to detect pneumonia. One way to depict Penumonia is by using chest X-ray images. They are obtain easily but the problem is in radiologic interpretation of images which are not always available. Therefore, such a tool could be use to predict fast and automatically whether or not someone have pneumonia. 
 
 *   Project done using the Fast.ai Library.
-*   I created a tool that classify images of clothes into their corresponding categories. 
-*   Scraped more than 1000  images of clothes from Google Image.
-*   Cleaned Data based on the predictions of a simple convolutional neural net.  
+*   I created a tool that classifies pediatric chest X-rays to detect pneumonia.
 *   Used transfer learning (pretrained resnet34). 
 *   Used the learning rate finder to find the best learning rate to update the weights. 
-*   Fine-tuned the model
-*   Built a client facing API using Voila.
+*   Fine-tuned the model.
+*   Built a client facing API using Flask.
 *   Deployed the model on Heroku.
 
 
