@@ -15,7 +15,7 @@ I created a tool that classify images of clothes into their corresponding catego
 *   Deployed the model on Heroku.
 
 
-![alt text]
+![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/results%20unfreeze%20pneu.PNG)
 
 ## About the Data
 Link of the dataset: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
