@@ -1,4 +1,4 @@
-# Pneumonia-Detection
+# Pneumonia-Detection Web-App Project Overview:
 
 **Final Product Hosted On Heroku:** https://pneumonia-detection-appli.herokuapp.com/
 
