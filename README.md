@@ -4,7 +4,6 @@
 
 I created a tool that classifies pediatric chest X-rays to detect pneumonia. One way to depict Penumonia is by using chest X-ray images. They are obtain easily but the problem is in radiologic interpretation of images which are not always available. Therefore, such a tool could be use to predict fast and automatically whether or not someone have pneumonia. 
 
-*   Project done using the Fast.ai Library.
 *   I created a tool that classifies pediatric chest X-rays to detect pneumonia.
 *   Performed Data preprocessing and Augmentation.
 *   Used transfer learning (pretrained resnet34). 
@@ -66,5 +65,5 @@ https://www.researchgate.net/figure/An-example-of-CNN-architecture_fig1_32074840
 ![alt text](https://github.com/gaetanlop/Pneumonia-Detection/blob/master/conf%20matrix%20pneu.PNG)
 
 ## Productionization and Deployment
-I built a client facing API using Voila and deployed it using Heroku.
+I built a client facing API using FlaskAPI and deployed it using Heroku.
 * **Final Product Hosted On Heroku:** https://pneumonia-detection-appli.herokuapp.com/
