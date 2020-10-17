@@ -2,7 +2,7 @@
 
 **Final Product Hosted On Heroku:** https://pneumonia-detection-appli.herokuapp.com/
 
-I created a tool that classifies pediatric chest X-rays to detect pneumonia. One way to depict Penumonia is by using chest X-ray images. They are obtain easily but the problem is in radiologic interpretation of images which are not always available. Therefore, such a tool could be use to predict fast and automatically whether or not someone have pneumonia. 
+I created a tool that classifies pediatric chest X-rays to detect pneumonia. One way to depict pneumonia is by using chest X-ray images. They are obtain easily but the problem is in radiologic interpretation of images which are not always available. Therefore, such a tool could be use to predict fast and automatically whether or not someone has pneumonia. 
 
 *   I created a tool that classifies pediatric chest X-rays to detect pneumonia.
 *   Performed Data preprocessing and Augmentation.
